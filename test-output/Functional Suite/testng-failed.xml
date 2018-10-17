@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional Suite]">
+  <parameter name="baseURL" value="http://162.243.104.134/urls/onboard"/>
+  <parameter name="browserVer" value="firefox"/>
+  <listeners>
+    <listener class-name="com.gl.smoke.utilities.TestListener"/>
+    <listener class-name="com.gl.smoke.utilities.ExtentReporterNG"/>
+  </listeners>
+  <test name="Mozile Firefox(failed)">
+    <parameter name="browserVer" value="firefox"/>
+    <classes>
+      <class name="com.gl.smoke.pom.tests.DemoTests">
+        <methods>
+          <include name="extractTestNameFromParameters"/>
+          <include name="setup"/>
+          <include name="To_Verify_Create_Account_Button"/>
+        </methods>
+      </class> <!-- com.gl.smoke.pom.tests.DemoTests -->
+    </classes>
+  </test> <!-- Mozile Firefox(failed) -->
+</suite> <!-- Failed suite [Functional Suite] -->

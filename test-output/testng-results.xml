@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="111" started-at="2017-05-14T13:54:02Z" finished-at="2017-05-14T13:54:02Z">
+    <groups>
+      <group name="Fantional Tests ">
+        <method signature="DemoTests.To_Verify_Create_Account_Button()[pri:5, instance:com.gl.smoke.pom.tests.DemoTests@eed359]" name="To_Verify_Create_Account_Button" class="com.gl.smoke.pom.tests.DemoTests"/>
+      </group> <!-- Fantional Tests  -->
+    </groups>
+    <test name="Default test" duration-ms="111" started-at="2017-05-14T13:54:02Z" finished-at="2017-05-14T13:54:02Z">
+      <class name="com.gl.smoke.pom.tests.DemoTests">
+        <test-method status="FAIL" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.gl.smoke.pom.tests.DemoTests@eed359]" test-instance-name="To_Verify_Create_Account_Button" name="setup" is-config="true" duration-ms="0" started-at="2017-05-14T19:24:02Z" finished-at="2017-05-14T19:24:02Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserVer' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\Users\Nikhil chauhan\AppData\Local\Temp\testng-eclipse--1692133433\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserVer' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\Users\Nikhil chauhan\AppData\Local\Temp\testng-eclipse--1692133433\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="extractTestNameFromParameters(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.gl.smoke.pom.tests.DemoTests@eed359]" test-instance-name="To_Verify_Create_Account_Button" name="extractTestNameFromParameters" is-config="true" duration-ms="25" started-at="2017-05-14T19:24:02Z" finished-at="2017-05-14T19:24:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.gl.smoke.pom.tests.DemoTests.To_Verify_Create_Account_Button()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@8a8f7c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractTestNameFromParameters -->
+        <test-method status="SKIP" signature="To_Verify_Create_Account_Button()[pri:5, instance:com.gl.smoke.pom.tests.DemoTests@eed359]" test-instance-name="To_Verify_Create_Account_Button" name="To_Verify_Create_Account_Button" duration-ms="3" started-at="2017-05-14T19:24:02Z" description="Verify Create Account button functionality" finished-at="2017-05-14T19:24:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- To_Verify_Create_Account_Button -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.gl.smoke.pom.tests.DemoTests@eed359]" test-instance-name="To_Verify_Create_Account_Button" name="tearDown" is-config="true" duration-ms="0" started-at="2017-05-14T19:24:02Z" finished-at="2017-05-14T19:24:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gl.smoke.pom.tests.DemoTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
