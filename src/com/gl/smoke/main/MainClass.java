@@ -17,6 +17,7 @@ public class MainClass {
 		test = ".//" + test;
 		testng.setOutputDirectory(test);
 		List<String> suites = Lists.newArrayList();
+		System.out.println("abc");
 
 		suites.add(".//testng.xml");// path to xml..
 		testng.setTestSuites(suites);
